@@ -45,7 +45,7 @@ Ces dossiers sont:
 
   pour executer, lancer ce code, il y a deux methodes:
 
- - Premiere methode: d'abord cloner le projet et executant les commandes git init, ensuite git clone https://github.com/Prune12/INF4067_design_pattern.git,dans votre terminal. 
+ - Premiere methode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
       Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires pour execution d'un code java. 
       Si vous utiliser eclipse ou intellij, vous pourrez facilement éxécuter le code car ces éditeurs ont les configurations du langages java déja inclut, mais si vous utilisez visual studio code,
       il est nécessaire d'installer l'extension java. étant donné que chaque dossier notamment (AbstractFactory0, AbstractFactory1) est codé de façon independante,
@@ -60,7 +60,7 @@ Ces dossiers sont:
    Le dossier Builder contient le code source d'implementation le patron "Builder": un type de patron de conception.
 	   Ce dossier comporte 03 dossiers intitulés:
 		    • Builder_0
-			  • Builder_1
+		    • Builder_1
         • Builder_2
     • Créer des objets complexes à partir d’autres objets sources.
     • Ces parties (objets sources) doivent (généralement) être créées

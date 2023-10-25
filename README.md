@@ -41,18 +41,18 @@ Ces dossiers sont:
         ProduitFactory2(construit les produits A2, B2, C2) et une classe 
         Client(main()) qui éxécute le programme.).
 
- --> comment l'executer? Comment tester ce code?
+ --> comment éxécuter ou tester ce code?
 
-  pour executer, lancer ce code, il y a deux methodes:
+  pour executer ou lancer ce code, il y a deux methodes:
 
- - Premiere methode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
+ - Premiere méthode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
       Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires pour execution d'un code java. 
       Si vous utiliser eclipse ou intellij, vous pourrez facilement éxécuter le code car ces éditeurs ont les configurations du langages java déja inclut, mais si vous utilisez visual studio code,
       il est nécessaire d'installer l'extension java. étant donné que chaque dossier notamment (AbstractFactory0, AbstractFactory1) est codé de façon independante,
       donc dans le dossier "code" de chacun de ces dossiers il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question 
       et la partie du patron concerné sera lancé.
 
- - Deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
+ - Deuxieme méthode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
  -  supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient dejà une classe avec une methode main() pour l'executer.
  -  Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé.
 
@@ -107,23 +107,23 @@ Ces dossiers sont:
       MonteurPizzaPiquante, MonteurPizzaReine et le MonteurPizzaLocal qui construisent et assemblent les parties du produit, une classe abstraite
       MonteurPizza pour la création de partie d'un objet produit et une classe Client pour éxécuter le programme).
       
--> comment l'executer? Comment tester ce code?
+-> comment éxécuter ou tester ce code?
 
-  pour executer, lancer ce code, il y a deux methodes:
+  pour éxécuter ou lancer ce code, il y a deux methodes:
 
- - Premiere methode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
+ - Premiere méthode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
       Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires pour execution d'un code java. 
       Si vous utiliser eclipse ou intellij, vous pourrez facilement éxécuter le code car ces éditeurs ont les configurations du langages java déja inclut, mais si vous utilisez visual studio code,
       il est nécessaire d'installer l'extension java. étant donné que chaque dossier notamment (Builder_0 ,Builder_1 et Builder_2) est codé de façon independante,
       donc dans le dossier "code" de chacun de ces dossiers il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question 
       et la partie du patron concerné sera lancé.
 
- - Deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
+ - Deuxieme méthode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
  -  supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient dejà une classe avec une methode main() pour l'executer.
  -  Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé.
 
     
-   Le dossier Factory method contient le code source d'implementation du patron "Factory": un type de patron de conception.
+   Le dossier Factory méthod contient le code source d'implementation du patron "Factory": un type de patron de conception.
 	   Ce dossier comporte 04 dossiers intitulés:
 		    • Factory methode0
 		    • Factory methode1
@@ -181,18 +181,18 @@ Ces dossiers sont:
 					      l'implementation des méthodes qui invoquent cette méthode de fabrique ( nous avons troix produits A1, A2 et A3 qui herite du produit A et chaque produit à sa fabrique concrète: ProduitFactory1 pour le produit A1, 
 					       ProduitFactory2 pour le produit A2 et ProduitFactory3 pour le produit A3 qui hérite de la class asbtraite ProduitFactory et une classe Client(main()) qui éxécute le programme.).
 
- -> comment l'executer? Comment tester ce code?
+ -> comment éxécuter ou  tester ce code?
 
-  pour executer, lancer ce code, il y a deux methodes:
+  pour éxécuter ou lancer ce code, nous verrons deux méthodes:
 
- - Premiere methode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
+ - Premiere méthode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
       Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires pour execution d'un code java. 
       Si vous utiliser eclipse ou intellij, vous pourrez facilement éxécuter le code car ces éditeurs ont les configurations du langages java déja inclut, mais si vous utilisez visual studio code,
       il est nécessaire d'installer l'extension java. étant donné que chaque dossier notamment (Factory methode0, Factory methode1, Second Factory methode_0, Second Factory methhode_1) est codé de façon independante,
       donc dans le dossier "code" de chacun de ces dossiers il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question 
       et la partie du patron concerné sera lancé.
 
- - Deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
+ - Deuxieme méthode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
  -  supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient dejà une classe avec une methode main() pour l'executer.
  -  Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé.
 
@@ -235,18 +235,18 @@ Ces dossiers sont:
     (l'unique instance de classe contient 02 constructeurs: l'un qui ne prend rien en paramètre et l'autre qui prend deux paramètre x et y, également implémente
     les méthodes somme et moyenne et affiche les valeurs de l'instance).
 
--> comment l'executer? Comment tester ce code?
+-> comment éxécuter ou Comment tester ce code?
 
-  pour executer, lancer ce code, il y a deux methodes:
+  pour éxécuter ou lancer ce code, il y a deux méthodes:
 
- - Premiere methode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
+ - Premiere méthode: d'abord cloner le projet et executant les commandes git init, ensuite git clone  https://github.com/katakratos/INF4067-Design-Patterns.git,dans votre terminal. 
       Une fois que c'est fait, vous pouvez ouvrir le dossier du projet dans un editeur de votre choix mais rassurer vous que vous avez les extensions necessaires pour execution d'un code java. 
       Si vous utiliser eclipse ou intellij, vous pourrez facilement éxécuter le code car ces éditeurs ont les configurations du langages java déja inclut, mais si vous utilisez visual studio code,
       il est nécessaire d'installer l'extension java. étant donné que chaque dossier notamment (Arithmetic, Singleton_0) est codé de façon independante,
       donc dans le dossier "code" de chacun de ces dossiers il y a une classe contenant une methode main(),et donc vous n'aurez qu'à faire un run de la classe en question 
       et la partie du patron concerné sera lancé.
 
- - Deuxieme methode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
+ - Deuxieme méthode: creer un projet java, copier le dossier du patron que vous souhaitez executer(aAbstractFactory0, AbstractFactory1) dans le dossier src du projet java vous venez de creer,
  -  supprimer la classe main qui est venue par defaut lors de la creation de votre projet java car le dossier du patron que vous allez copier dans le src contient dejà une classe avec une methode main() pour l'executer.
  -  Une fois que c'est fait,vous n'aurez qu'à faire un run de la classe en question et la partie du patron concerné sera lancé.
 
